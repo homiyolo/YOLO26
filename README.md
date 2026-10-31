@@ -1,6 +1,8 @@
 # YOLO26 driver behavior model artifacts
 
-This repository contains **model weights, aggregate evaluation results, and a validation report only**. It excludes source code, credentials, raw images, individual annotations, driver identifiers, and per-image predictions.
+This repository contains **model weights, aggregate evaluation results, a validation report, and usage notes**. It excludes source code, credentials, raw images, individual annotations, driver identifiers, and per-image predictions.
+
+The private local WebUI supports [switching models during live camera recognition](WEBUI_NOTES.md).
 
 ## Original driver behavior classifier
 
