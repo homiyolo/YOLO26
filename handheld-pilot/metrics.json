@@ -1,0 +1,19 @@
+{
+  "task": "handheld object detection pilot",
+  "architecture": "YOLO26n",
+  "image_size": 416,
+  "classes": [
+    "phone",
+    "cup",
+    "other_handheld"
+  ],
+  "train_images": 56,
+  "validation_images": 15,
+  "split": "different drivers in train and validation; locked original test drivers not used",
+  "box_map50": 0.7581683605832965,
+  "box_map50_95": 0.44413497918069944,
+  "box_precision_mean": 0.7638586874441554,
+  "box_recall_mean": 0.7102994578175367,
+  "status": "small pilot only; no head-direction or hand-occupancy accuracy claim"
+}
+

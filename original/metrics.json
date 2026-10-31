@@ -1,0 +1,24 @@
+{
+  "task": "10-class driver behavior image classification",
+  "architecture": "YOLO26n-cls",
+  "image_size": 224,
+  "split": "17 training drivers / 3 held-out test drivers",
+  "test_images": 2557,
+  "test_accuracy": 0.8212749315604224,
+  "test_macro_f1": 0.8303280301944451,
+  "test_evaluations": 1,
+  "classes": {
+    "c0": "safe driving",
+    "c1": "texting - right",
+    "c2": "talking on phone - right",
+    "c3": "texting - left",
+    "c4": "talking on phone - left",
+    "c5": "operating radio",
+    "c6": "drinking",
+    "c7": "reaching behind",
+    "c8": "hair and makeup",
+    "c9": "talking to passenger"
+  },
+  "preprocessing": "RGB, full-frame aspect-preserving letterbox, divide by 255; no normalization"
+}
+
