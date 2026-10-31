@@ -1,0 +1,58 @@
+{
+  "task": "eight-class handheld-object and head-direction box detection",
+  "architecture": "YOLO26n",
+  "image_size": 320,
+  "epochs_completed": 20,
+  "train_images": 677,
+  "validation_images": 148,
+  "excluded_missing_label_files": 25,
+  "train_drivers": 14,
+  "validation_drivers": 3,
+  "driver_disjoint": true,
+  "locked_test_used": false,
+  "classes": [
+    "phone",
+    "cup",
+    "other_handheld",
+    "TurnR",
+    "down",
+    "up",
+    "TurnL",
+    "forward"
+  ],
+  "train_boxes": {
+    "TurnR": 108,
+    "phone": 271,
+    "down": 83,
+    "forward": 447,
+    "other_handheld": 60,
+    "cup": 69,
+    "TurnL": 21,
+    "up": 5
+  },
+  "validation_boxes": {
+    "TurnL": 5,
+    "other_handheld": 22,
+    "forward": 88,
+    "phone": 56,
+    "TurnR": 31,
+    "cup": 15,
+    "down": 15,
+    "up": 6
+  },
+  "box_map50": 0.6194261986115556,
+  "box_map50_95": 0.3761140678176029,
+  "box_precision_mean": 0.6811039478687432,
+  "box_recall_mean": 0.5595321009635525,
+  "per_class_map50_95": {
+    "phone": 0.3928915929818847,
+    "cup": 0.313466108827071,
+    "other_handheld": 0.12113723660820322,
+    "TurnR": 0.7089882784324673,
+    "down": 0.2902596954749176,
+    "up": 0.33155096774193554,
+    "TurnL": 0.24077576868366343,
+    "forward": 0.6098428937906807
+  },
+  "status": "preliminary: manifest not marked fully reviewed; rare up and TurnL classes"
+}
