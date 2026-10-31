@@ -21,4 +21,3 @@
   },
   "preprocessing": "RGB, full-frame aspect-preserving letterbox, divide by 255; no normalization"
 }
-

@@ -13,4 +13,3 @@ This repository contains **model weights and aggregate evaluation results only**
 Head-direction labels are currently too sparse (one `TurnL`, two `up`) for a meaningful head-pose detector or fair model comparison. The original model and the pilot detector solve different tasks, so their metrics should not be ranked against each other. The original model remains the supported behavior classifier.
 
 The weights are Ultralytics YOLO models; check the applicable [Ultralytics license](https://www.ultralytics.com/license) before redistribution or commercial use. No training images or annotation files are included.
-
