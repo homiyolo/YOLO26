@@ -2,7 +2,7 @@
 
 This repository contains **model weights, aggregate evaluation results, a validation report, and usage notes**. It excludes source code, credentials, raw images, individual annotations, driver identifiers, and per-image predictions.
 
-The private local WebUI supports [switching models during live camera recognition](WEBUI_NOTES.md).
+The private local WebUI supports [model switching and body-pose skeleton overlays](WEBUI_NOTES.md) for images, videos, and live camera input. The WebUI source stays local under the owner's privacy preference.
 
 ## Original driver behavior classifier
 
