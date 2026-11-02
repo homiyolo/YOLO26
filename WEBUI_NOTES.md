@@ -13,3 +13,7 @@ The image, video, and live camera pages also list **人体姿态关键点（预�
 This checkpoint was not fine-tuned or validated on the State Farm cabin images. It does not estimate finger joints, hand occupancy, held objects, driver actions, or head rotation angles. Occluded body landmarks may be absent. The official pose model and task description are available in the [Ultralytics pose documentation](https://docs.ultralytics.com/tasks/pose/).
 
 The WebUI implementation and private driver images remain only on the owner's computer. This public repository provides no WebUI source code or individual pose predictions.
+
+## Local video upload update
+
+The local DriveLab video page accepts files up to 800 MB, including H.264 (`avc1`) encoded `.mp4` files. Uploads stream to local disk and are decoded for inference; annotated previews are encoded as browser-playable H.264 MP4. The WebUI source and uploaded videos remain private on the owner's computer.
