@@ -17,3 +17,5 @@ The WebUI implementation and private driver images remain only on the owner's co
 ## Local video upload update
 
 The local DriveLab video page accepts files up to 800 MB, including H.264 (`avc1`) encoded `.mp4` files. Uploads stream to local disk and are decoded for inference; annotated previews are encoded as browser-playable H.264 MP4. The WebUI source and uploaded videos remain private on the owner's computer.
+
+The video results page now includes a seekable timeline. Scrubbing to a time displays and downloads an annotated PNG frame from the local preview. The displayed recognition label is the most recent sampled prediction at or before that time; unsampled frames do not run an additional inference pass.
